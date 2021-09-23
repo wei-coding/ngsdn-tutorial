@@ -227,7 +227,7 @@ To add new SRv6 policies, you should use the `srv6-insert` command.
 onos> srv6-insert <device ID> <segment list>
 ```
 
-Note: In our topology, the SID for spine1 is `3:201:2::` and the SID for spine
+Note: In our topology, the SID for spine1 is `3:201:2::` and the SID for spine2
 is `3:202:2::`.
 
 For example, to add a policy that forwards traffic between h2 and h4 though
